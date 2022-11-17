@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 //* Use this file directly to populate database.
-//* Use like "node populatedb.js" or "npm populatedb.js" can't remember which now xD
+//* Use like "node populatedb <your mongodb url>"
 
 console.log(
   "This script populates some test books, authors, genres and bookinstances to your database. Specified database as argument - e.g.: populatedb mongodb+srv://cooluser:coolpassword@cluster0.a9azn.mongodb.net/local_library?retryWrites=true"
